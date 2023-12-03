@@ -1,0 +1,32 @@
+<!-- Seth VanMeter -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enter JavaScript Link -->
+    <script src = "script.js"></script>
+    <title>What's the Secret Code?</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--give the form ID-->
+    <!-- if "return false" is missing the information will stay on the screen -->
+    <form id="nameInp" onsubmit = "return false">
+        <!--input type will give the input a value for JavaScript to grab-->
+        <!-- Add textboxes for user's first and lastname -->
+        First Name: <input type = "text" id = "firstName">
+        <br>
+        Last Name: <input type = "text" id = "lastName">
+        <br>
+        <!-- add text box to enter ZipCode -->
+        Zip Code: <input type = "text" id = "zipCode">
+        <br>
+        <!-- Create an input button -->
+        <input type = "Submit" onclick = "check();"/>
+    </form>
+    <!-- this will display the answer -->
+</body>
+</html>

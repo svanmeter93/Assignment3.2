@@ -1,0 +1,24 @@
+body 
+{
+background-color: rgb(98, 87, 107);
+color: beige;
+padding-left: 55cap;
+margin-top: 5cap;
+}
+
+#firstName, #lastName, #zipCode
+{
+    margin-top: 5cap;
+}
+
+input
+{
+    margin-top: 3cap;
+}
+
+h1
+{
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.10cap;
+}
